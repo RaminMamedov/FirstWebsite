@@ -1,0 +1,28 @@
+.footer {
+  background-color: #344b8e;
+}
+.footer__menu {
+  max-width: 940px;
+  margin: 0 auto;
+}
+.footer__list {
+  display: flex;
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+}
+.footer__item {
+  padding: 10px;
+  margin: 0 auto;
+}
+.footer__link {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.48px;
+  text-align: center;
+  color: #fff;
+}
+@media (any-hover: hover) {
+  .footer__link--active:hover {
+    color: #30bae7;
+  }
+}

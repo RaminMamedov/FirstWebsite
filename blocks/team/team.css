@@ -1,0 +1,108 @@
+.team {
+  background-color: #e7f1f8;
+}
+.team__title {
+  font-size: 41.5px;
+  font-weight: 700;
+  letter-spacing: 4.15px;
+  text-align: center;
+  color: #3c4761;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+@media (max-width: 992px) {
+  .team__title {
+    font-size: 35px;
+}
+}
+@media (max-width: 480px) {
+  .team__title {
+    font-size: 24px;
+}
+}
+.team__text-wrap {
+  max-width: 680px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+.team__content-text {
+  font-size: 18.5px;
+  letter-spacing: 0.37px;
+  text-align: center;
+  color: #3c4761;
+}
+.team__container-element {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -25px;
+  padding-bottom: 80px;
+}
+.team__element {
+  flex: 0 1 25%;
+  padding: 0 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 992px) {
+  .team__element {
+    flex: 0 1 50%;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 430px) {
+  .team__element {
+    flex: 0 1 100%;
+    margin-bottom: 40px;
+  }
+}
+.team__content {
+  display: flex;
+  flex-direction: column;
+}
+.team__image {
+  flex: 0 0 198px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+.team__img {
+  max-width: 100%;
+}
+.team__body {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+.team__name {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.48px;
+  text-align: center;
+  color: #27283d;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+@media (max-width: 430px) {
+  .team__name {
+    font-size: 20px;
+  }
+}
+.team__position {
+  font-size: 16px;
+  letter-spacing: 0.32px;
+  text-align: center;
+  color: #30bae7;
+  margin-bottom: 20px;
+}
+.team__about {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.32px;
+  text-align: center;
+  color: #3c4761;
+  margin-bottom: 10px;
+  flex: 1 1 auto;
+}
+.team__accounts {
+  display: flex;
+  justify-content: space-evenly;
+}
